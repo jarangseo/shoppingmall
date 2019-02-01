@@ -1,0 +1,17 @@
+{
+  "name": "shoppingmall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/nodemon/bin/nodemon.js app.js",
+    "start": "./node_modules/nodemon/bin/nodemon.js app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9"
+  }
+}
