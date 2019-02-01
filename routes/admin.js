@@ -5,4 +5,9 @@ router.get('/', function(req,res){
     res.send('admin app');
 });
 
+router.get('/products', function(req,res){
+    res.render('admin/products',
+        {message:"hellooooo"}
+    )
+});
 module.exports = router;
